@@ -1,0 +1,60 @@
+<div class="container">
+{% if page.title == 'home' %}
+       <div class="hero-unit" style="text-align:center;">
+        <h1>Welcome to Christ Church of India</h1>
+        <p>God loves you and He cares for you. He wants to have a personal relationship with you.   We promise to provide you with the opportunity to know Him, to grow in Him and to face the world with confidence.</p>
+        <!--<p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>-->
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span8">
+            <h2>Sunday Service</h2>
+          <div class="pull-left"><img src="http://www.christchurchofindia.net/Images/church1.jpg"></div>              
+        </div>        
+        <div class="span4">
+          <h2>Upcoming events</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          
+        </div>
+      </div>
+  {% elsif page.title == 'about' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Statement of faith</h2>
+            <p> Text here...</p>
+        </div>        
+        <div class="span12">
+            <h2>Mission</h2>
+            <p> Text here...</p>
+        </div> 
+        <div class="span12">
+            <h2>Vision</h2>
+            <p> Text here...</p>
+        </div> 
+      </div>
+ 
+  {% elsif page.title == 'ministry' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Various ministry pages</h2>
+            <p> Text here...</p>
+        </div>              
+      </div>
+ 
+ {% elsif page.title == 'event' %}
+       
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span12">
+            <h2>Various event pages</h2>
+            <p> Text here...</p>
+        </div>              
+      </div>
+ {% endif %}
+     
+</div>

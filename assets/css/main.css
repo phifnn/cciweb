@@ -1,0 +1,53 @@
+body {
+  background-color: #f5fff6;
+  color: #333333;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 70px;
+}
+#header {
+  background-color: #67826c;
+  color: #f0fff9;
+}
+#header a {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #67826c;
+  color: #f0fff9;
+}
+#header a:hover {
+  background-color: #d6dfd8;
+  color: #f0fff9;
+}
+#footer {
+  background-color: #67826c;
+  color: #f0fff9;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+#topnav a {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.l-box {
+  margin: 7px;
+  padding: 5px;
+}
+.splash {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #dcffdf;
+}
